@@ -14,12 +14,12 @@ const Footer = () => {
             <div className="col-sm-12 col-md-6 col-lg-6 d-flex flex-column">
               <h3>About Us</h3>
               <p>
-                coinstationpro is one of the leading cryptocurrency mining
+                AstrofxFast is one of the leading cryptocurrency mining
                 platforms, offering cryptocurrency mining capacity in every
-                range for absoulte beginners,
+                range for absolute beginners,
                 <br />
                 With cryptocurrency replacing fiat currencies our goal is to
-                make aquiring cryptocurrency easy for everyone
+                make acquiring cryptocurrency easy for everyone
               </p>
             </div>
             <div className="col-sm-12 col-md-2 col-lg-2 d-flex flex-column mb-3">
@@ -36,10 +36,9 @@ const Footer = () => {
             </div>
             <div className="col-sm-12 col-md-4 col-lg-4 d-flex flex-column mb-5">
               <h3>Contact Info</h3>
-              <p>infocoinstationpro@gmail.com</p>
+              <p>AstrofxFast@gmail.com</p>
               <p>
-                coinstationpro Head office US: 2944 N 44th Street,Phoenix,AZ
-                85018
+                AstrofxFast Head office US: 2944 N 44th Street,Phoenix,AZ 85018
               </p>
               <p>
                 UK:First Floor ,Omega Building,Smugglers Way,Wandsworth,SW18
@@ -65,7 +64,7 @@ const Footer = () => {
           </div> */}
           <div className="text-center mt-3">
             <p>
-              COPYRIGHT © RESVERED coinstationpro 2014 -{" "}
+              COPYRIGHT © RESVERED AstrofxFast 2014 -{" "}
               {moment(new Date()).format("YYYY")}
             </p>
           </div>
