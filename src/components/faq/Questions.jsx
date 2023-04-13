@@ -52,8 +52,8 @@ const Questions = () => {
         </Accordion.Item>
         <Accordion.Item eventKey="4">
           <Accordion.Header>
-            How does coinstationpro Insurance work and how does it protect
-            miners assets and machines?
+            How does AstrofxFast Insurance work and how does it protect miners
+            assets and machines?
           </Accordion.Header>
           <Accordion.Body className="text-sec">
             The insurance has a lite token fee and covers everything including
