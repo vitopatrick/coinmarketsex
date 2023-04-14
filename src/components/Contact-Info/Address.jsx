@@ -30,15 +30,15 @@ const Address = () => {
               <p>AstrofxFast@gmail.com</p>
             </div>
           </div>
-          {/* <div className="address__card">
+          <div className="address__card">
             <div>
               <FaPhoneAlt />
             </div>
             <div>
               <h1 className="fs-4">Phone</h1>
-              <p>Call Us Now +1____</p>
+              <p>Call Us Now +1 (920) 249‑5329</p>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </IconContext.Provider>

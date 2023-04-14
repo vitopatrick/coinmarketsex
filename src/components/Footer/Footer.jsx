@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { IconContext } from "react-icons";
-// import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import moment from "moment";
 import "./footer.css";
 
@@ -62,6 +62,13 @@ const Footer = () => {
               </a>
             </div>
           </div> */}
+          <div className="footer__links">
+            <div className="footer__media">
+              <a href="Wa.me/+19202495329">
+                <FaWhatsapp />
+              </a>
+            </div>
+          </div>
           <div className="text-center mt-3">
             <p>
               COPYRIGHT © RESVERED AstrofxFast 2014 -{" "}
