@@ -19,18 +19,11 @@ const Home = () => {
     if (token) {
       navigate("/dashboard");
     }
+     const script = document.createElement("script");
+     script.async = true;
+     script.src = "//code.tidio.co/tsth6slmz48gtcmx4g5p0l5in6juragp.js";
 
-    var Tawk_API = Tawk_API || {},
-      Tawk_LoadStart = new Date();
-    (function () {
-      var s1 = document.createElement("script"),
-        s0 = document.getElementsByTagName("script")[0];
-      s1.async = true;
-      s1.src = "https://embed.tawk.to/6492cbc494cf5d49dc5efd2b/default";
-      s1.charset = "UTF-8";
-      s1.setAttribute("crossorigin", "*");
-      s0.parentNode.insertBefore(s1, s0);
-    })();
+     document.body.appendChild(script);
   }, []);
 
   return (
