@@ -91,7 +91,7 @@ const Layout = (props) => {
             onClick={goHome}
             sx={{ p: 1, color: "#198754", cursor: "pointer" }}
           >
-            AstrofxFast
+            coinmarketex
           </Typography>
         </Toolbar>
       </AppBar>

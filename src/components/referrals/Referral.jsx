@@ -14,7 +14,7 @@ const Referral = () => {
     });
   };
 
-  const link = `https://www.Astrofxfast.live/ref/huiojiniojiojij`;
+  const link = `https://www.coinmarketex.live/ref/huiojiniojiojij`;
 
   return (
     <Box>

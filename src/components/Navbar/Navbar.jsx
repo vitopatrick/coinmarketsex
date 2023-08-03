@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className="container">
           <Link to="/">
             <div className="img-res">
-              <h1 className="text-success fw-bolder">AstrofxFast </h1>
+              <h1 className="text-success fw-bolder">coinmarketex </h1>
             </div>
           </Link>
           <div>

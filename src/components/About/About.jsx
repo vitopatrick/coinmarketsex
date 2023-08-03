@@ -14,7 +14,7 @@ const About = () => {
                 Create your cryptocurrency portfolio today
               </h1>
               <p className="text-muted">
-                AstrofxFast has a variety of features that make it the best
+                coinmarketex has a variety of features that make it the best
                 place to start trading
               </p>
             </div>
