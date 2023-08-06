@@ -27,7 +27,7 @@ const Address = () => {
             </div>
             <div>
               <h1 className="fs-4">Email</h1>
-              <p>coinmarketex@gmail.com</p>
+              <p>coinmarketex26@gmail.com</p>
             </div>
           </div>
           <div className="address__card">
@@ -36,7 +36,7 @@ const Address = () => {
             </div>
             <div>
               <h1 className="fs-4">Phone</h1>
-              <p>Call Us Now +1 (920) 249‑5329</p>
+              <p>Call Us Now +17313133685</p>
             </div>
           </div>
         </div>

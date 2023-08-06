@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
             <div className="col-sm-12 col-md-4 col-lg-4 d-flex flex-column mb-5">
               <h3>Contact Info</h3>
-              <p>coinmarketex@gmail.com</p>
+              <p>coinmarketex26@gmail.com</p>
               <p>
                 coinmarketex Head office US: 2944 N 44th Street,Phoenix,AZ 85018
               </p>
@@ -64,7 +64,7 @@ const Footer = () => {
           </div> */}
           <div className="footer__links">
             <div className="footer__media">
-              <a href="Wa.me/+19202495329">
+              <a href="Wa.me/+17313133685">
                 <FaWhatsapp />
               </a>
             </div>
