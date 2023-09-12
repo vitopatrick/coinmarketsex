@@ -25,7 +25,7 @@ const Hero = () => {
           </div>
           <div className="container">
             <p className="text-center text-white ">
-              coinmarketex Trading Signals is a group of financial and
+              brokerbase Trading Signals is a group of financial and
               cryptocurrency experts that invest in mining and cryptocurrency
               trading. We carefully examine the volatility of bitcoin and other
               crypto currencies, invest and make good profit from our

@@ -15,21 +15,21 @@ const Address = () => {
             <div>
               <h1 className="fs-4">Address</h1>
               <p>
-                coinmarketex Head office US: 2944 N 44th Street,Phoenix,AZ 85018
+                brokerbase Head office US: 2944 N 44th Street,Phoenix,AZ 85018
                 <br />
                 UK:First Floor ,Omega Building,Smugglers Way,Wandsworth,SW18
               </p>
             </div>
           </div>
-          <div className="address__card">
+          {/* <div className="address__card">
             <div>
               <FaEnvelope />
             </div>
             <div>
               <h1 className="fs-4">Email</h1>
-              <p>coinmarketex26@gmail.com</p>
+              <p>brokerbase26@gmail.com</p>
             </div>
-          </div>
+          </div> */}
           <div className="address__card">
             <div>
               <FaPhoneAlt />

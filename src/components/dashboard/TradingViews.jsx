@@ -66,7 +66,7 @@ const TradingViews = () => {
       </Box>
       <Box sx={{ mt: 4 }}>
         <Typography variant="caption" textAlign="center">
-          coinmarketex © 2023
+          brokerbase © 2023
         </Typography>
       </Box>
     </div>
