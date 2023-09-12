@@ -21,15 +21,15 @@ const Address = () => {
               </p>
             </div>
           </div>
-          {/* <div className="address__card">
+          <div className="address__card">
             <div>
               <FaEnvelope />
             </div>
             <div>
               <h1 className="fs-4">Email</h1>
-              <p>brokerbase26@gmail.com</p>
+              <p>brokerbase05@gmail.com</p>
             </div>
-          </div> */}
+          </div>
           <div className="address__card">
             <div>
               <FaPhoneAlt />
