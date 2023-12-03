@@ -29,7 +29,7 @@ export const wallets = [
   // },
   {
     coin: "USDT",
-    address: "TEoK3TNHQeqYoXnTaeq3CFcoKHRRZ9EcRd",
+    address: "TXr4YxQVoncSg2ZQnhzH3pcZpJnx64ukQo",
     addressName: "USDT Address",
     icon: usdtLogo,
   },
