@@ -13,18 +13,25 @@ import Work from "../components/Work/Work";
 const Home = () => {
   const navigate = useNavigate();
 
-  useEffect(() => {
-    const token = sessionStorage.getItem("token");
+ useEffect(() => {
+   const token = sessionStorage.getItem("token");
 
-    if (token) {
-      navigate("/dashboard");
-    }
-     const script = document.createElement("script");
-     script.async = true;
-     script.src = "//code.tidio.co/xm0qbs0ro0bl8d6ifeizpwwxl96cow8i.js";
+   if (token) {
+     navigate("/dashboard");
+   }
 
-     document.body.appendChild(script);
-  }, []);
+   var Tawk_API = Tawk_API || {},
+     Tawk_LoadStart = new Date();
+   (function () {
+     var s1 = document.createElement("script"),
+       s0 = document.getElementsByTagName("script")[0];
+     s1.async = true;
+     s1.src = "https://embed.tawk.to/66438a309a809f19fb30d89c/default";
+     s1.charset = "UTF-8";
+     s1.setAttribute("crossorigin", "*");
+     s0.parentNode.insertBefore(s1, s0);
+   })();
+ }, []);
 
   return (
     <React.Fragment>
