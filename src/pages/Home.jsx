@@ -1,6 +1,6 @@
 /*eslint-disable */
 import React, { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom"; 
 import About from "../components/About/About";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
@@ -11,27 +11,28 @@ import Start from "../components/Start/Start";
 import Work from "../components/Work/Work";
 
 const Home = () => {
-  const navigate = useNavigate();
+  useEffect(() => {
+    const loadChatScript = () => {
+      const chatScript = document.createElement("script");
+      chatScript.async = true;
+      chatScript.src = "http://code.jivosite.com/widget/6bYZcBc1CG";
 
- useEffect(() => {
-   const token = sessionStorage.getItem("token");
+      document.body.appendChild(chatScript);
+    };
 
-   if (token) {
-     navigate("/dashboard");
-   }
+    // Load chat script on mount
+    loadChatScript();
 
-   var Tawk_API = Tawk_API || {},
-     Tawk_LoadStart = new Date();
-   (function () {
-     var s1 = document.createElement("script"),
-       s0 = document.getElementsByTagName("script")[0];
-     s1.async = true;
-     s1.src = "https://embed.tawk.to/66438a309a809f19fb30d89c/default";
-     s1.charset = "UTF-8";
-     s1.setAttribute("crossorigin", "*");
-     s0.parentNode.insertBefore(s1, s0);
-   })();
- }, []);
+    // Cleanup function to remove script on component unmount
+    return () => {
+      const existingScript = document.querySelector(
+        `script[src="${CHAT_SCRIPT_URL}"]`
+      );
+      if (existingScript) {
+        document.body.removeChild(existingScript);
+      }
+    };
+  }, []);
 
   return (
     <React.Fragment>
